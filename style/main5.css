@@ -1,0 +1,63 @@
+#main5{
+    height:110vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    color: white;
+    background-color: black;
+}
+
+#main5intro{
+    width: 80%;
+}
+
+#main5intro1{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+#main5intro2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#trainers{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.train{
+    width: 180px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trainimg{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.traintxt{
+    width: 100%;
+}
+.trainname{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.traininfo{
+    font-size: 10px;
+    font-family: 'Open sans';
+}

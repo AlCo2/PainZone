@@ -1,0 +1,112 @@
+#main3{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    color: white;
+    background-color: black;
+}
+#main3intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main3intro1{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+#main3intro2{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#gymshop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    height: 100%;
+}
+
+.gymshop{
+    background-color: #161a1d;
+    border-radius: 3px;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.gymshop1{
+    background-color: #0081a7;
+    border-radius: 3px;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.gymshoplabel{
+    text-align-last: center;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Poppins';
+}
+.gymshopoffer{
+    width: 90%;
+    font-size: 10px;
+}
+.gymshopoffer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+}
+.gymshopoffer li::before{
+    content:"\f058";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.gymshopbtn{
+    background: none;
+    font-size: 10px;
+    outline: none;
+    color: white;
+    border: 2px solid white;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    border-radius: 3px;
+}
+
+.gymshopbutton{
+    width: 70%;
+}
+.gymshopbutton1{
+    width: 70%;
+}
+.gymshopbtn1{
+    background: white;
+    font-size: 10px;
+    outline: none;
+    color: black;
+    border-radius: 3px;
+    border: 2px solid white;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}

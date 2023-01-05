@@ -1,0 +1,68 @@
+#main6{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contactus{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #161a1d;
+    color: white;
+    padding-top: 30px;
+    border-radius: 3px;
+}
+#main6intro{
+    width: 80%;
+}
+#contacttext{
+    display: flex;
+    flex-direction: column;
+}
+#main6intro1{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: aqua;
+}
+#contacttext{
+    padding-left: 30px;
+}
+
+#main6intro2{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#textcontact{
+    font-size: 10px;
+    width: 80%;
+}
+#contactway{
+    width: 80%;
+}
+#contactway ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    font-size: 10px;
+    gap: 20px;
+}
+#question{
+    font-size: 10px;
+}
+#map{
+    background-image: url(https://i0.wp.com/www.cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1);
+    background-position: center;
+    background-size: cover;
+    border-radius:10px;
+    width: 300px;
+    height: 300px;
+}
