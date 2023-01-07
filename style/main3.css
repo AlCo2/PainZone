@@ -116,7 +116,9 @@
         height: fit-content;
     }
     #gymshop{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+
     }
     .gymshop1,.gymshop{
         height: fit-content;
