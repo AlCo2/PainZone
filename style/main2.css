@@ -65,3 +65,18 @@
     border-radius: 100%;
 }
 
+@media screen and (max-width: 900px){
+    #gymcart{
+        width: fit-content;
+        align-items: center;
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/*small*/
+@media screen and (max-width: 600px){
+    .gymcart{
+        width: fit-content;
+    }
+}

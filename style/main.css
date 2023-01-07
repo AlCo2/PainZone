@@ -116,3 +116,56 @@ nav{
     color: aqua;
     
 }
+
+@media screen and (max-width: 900px){
+    .navitem{
+        width: fit-content;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        overflow: hidden;
+    }
+    #navright{
+        padding-left: 20px;
+    }
+    #navleft{
+        margin: 0;
+        padding: 0;
+        padding-left: 20px;
+    }
+    #navbrand{
+        padding-left: 40px;
+    }
+    #mainlast{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+/*small*/
+@media screen and (max-width: 600px){
+    #navright{
+        display: none;
+    }
+    #midtext{
+        font-size: 30px;
+    }
+    #litletext{
+        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align-last: center;
+    }
+    #mainlast ul{
+        width: fit-content;
+        gap: 20px;
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+}

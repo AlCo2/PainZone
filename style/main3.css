@@ -110,3 +110,36 @@
     font-weight: bold;
     font-family: 'Poppins';
 }
+
+@media screen and (max-width: 900px){
+    #main3{
+        height: fit-content;
+    }
+    #gymshop{
+        grid-template-columns: 1fr 1fr;
+    }
+    .gymshop1,.gymshop{
+        height: fit-content;
+        padding-bottom: 20px;
+        
+    }
+}
+/*small*/
+@media screen and (max-width: 600px){
+    #main3{
+        height: fit-content;
+    }
+    #gymshop{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .gymshop1{
+        width: fit-content;
+        height: fit-content;
+    }
+    .gymshop{
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+
+}
