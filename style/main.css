@@ -35,6 +35,7 @@ nav{
     color: white;
     font-family: 'Poppins';
     font-size: 12px;
+    padding-bottom: 3px;
     transition: 500ms;
 }
 .navitem2 a{
@@ -45,7 +46,7 @@ nav{
     transition: 300ms;
 }
 .navitem a:hover{
-    text-decoration: underline aqua;
+    border-bottom: solid 3px aqua;
 }
 .navitem2 a:hover{
     color: aqua;
@@ -90,6 +91,11 @@ nav{
     height: 30px;
     border-radius: 5px;
     background-color: aqua;
+    color: black;
+    transition-duration: 300ms;
+}
+#midbtn:hover{
+    background-color: white;
 }
 
 #mainlast ul{
@@ -108,7 +114,8 @@ nav{
     font-family: 'Open sans';
 }
 #aboutus{
-    text-decoration: underline aqua;
+    padding-bottom: 3px;
+    border-bottom: solid 3px aqua;
 }
 
 

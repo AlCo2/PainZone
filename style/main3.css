@@ -90,6 +90,7 @@
     font-weight: bold;
     font-family: 'Poppins';
     border-radius: 3px;
+    transition-duration: 300ms;
 }
 
 .gymshopbutton{
@@ -109,6 +110,14 @@
     height: 30px;
     font-weight: bold;
     font-family: 'Poppins';
+    transition-duration: 300ms;
+}
+.gymshopbtn1:hover{
+    background: none;
+}
+.gymshopbtn:hover{
+    background-color: white;
+    color: black;
 }
 
 @media screen and (max-width: 900px){
