@@ -1,0 +1,768 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#main{
+    height: 85vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815) ), url(https://wamu.org/wp-content/uploads/2020/11/danielle-cerullo-CQfNt66ttZM-unsplash-1-1500x1000.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.navitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;    
+}
+.navitem2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;    
+}
+.navitem a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 12px;
+    padding-bottom: 3px;
+    transition: 500ms;
+}
+.navitem2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 12px;
+    transition: 300ms;
+}
+.navitem a:hover{
+    border-bottom: solid 3px aqua;
+}
+.navitem2 a:hover{
+    color: aqua;
+}
+#navleft{
+    padding-right: 100px;    
+    gap: 15px;
+}
+#navleft i{
+    font-size: 18px;
+}
+#navright{
+    gap: 30px;
+}
+#navbrand{
+    padding-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#middletext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+#midtext{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    text-align-last: center;
+}
+#litletext{
+    font-size: 10px;
+}
+#midbtn{
+    width: 100px;
+    font-size: 13px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    transition-duration: 300ms;
+}
+#midbtn:hover{
+    background-color: white;
+}
+
+#mainlast ul{
+    gap: 100px;
+    font-size: 20px;
+}
+
+#mainlast1{
+    font-family: 'Poppins';
+}
+#mainlast2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+#mainlast3{
+    font-family: 'Open sans';
+}
+#aboutus{
+    padding-bottom: 3px;
+    border-bottom: solid 3px aqua;
+}
+
+
+.clicker{
+    transition: 300ms;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Open sans';
+}
+.clicker:hover{
+    color: aqua;
+    
+}
+
+@media screen and (max-width: 900px){
+    .navitem{
+        width: fit-content;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        overflow: hidden;
+    }
+    #navright{
+        padding-left: 20px;
+    }
+    #navleft{
+        margin: 0;
+        padding: 0;
+        padding-left: 20px;
+    }
+    #navbrand{
+        padding-left: 40px;
+    }
+    #mainlast{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+/*small*/
+@media screen and (max-width: 600px){
+    #navright{
+        display: none;
+    }
+    #midtext{
+        font-size: 30px;
+    }
+    #litletext{
+        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align-last: center;
+    }
+    #mainlast ul{
+        width: fit-content;
+        gap: 20px;
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+}
+#main1{
+    height: 90vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+#main1text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    flex-direction: column;
+    padding-top: 100px;
+}
+#main1text1{
+    width: 80%;
+    font-size: 12px;
+    color: aqua;
+    margin-bottom: 5px;
+}
+
+
+#main1text2{
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    width: 80%;
+}
+#main1text3{
+    font-size: 10px;
+    width: 80%;
+}
+#main1text4{
+    width: 80%;
+    font-size: 10px;
+}
+
+#main1picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+}
+
+#main1pic{
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+    background-image: url(https://content.api.news/v3/images/bin/992cce44abc69447de8188d0aceadac6);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 900px){
+    #main1pic{
+        width: 100%;
+    }
+    #main1picture{
+        padding: 40px;
+    }
+
+}
+/*small*/
+@media screen and (max-width: 600px){
+    #main1{
+        height: fit-content;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+    #main1picture{
+        height:fit-content;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        align-items: baseline;
+    }
+    #main1pic{
+        width: 200px;
+        height: 200px;
+    }
+    #main1text{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+#main2{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    color: white;
+    background-color: black;
+}
+
+#main2intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main2intro1{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+#main2intro2{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+#gymcart{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.gymcart{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.gymcartlabel{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 30px;
+}
+.gymcarttext{
+    padding-left: 45px;
+    font-size: 10px;
+}
+.gymcarttitle{
+    font-size: 20px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.gymcarticon{
+    color: aqua;
+    font-size: 20px;
+    background-color: rgba(2, 50, 50, 0.514);
+    padding: 5px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 900px){
+    #gymcart{
+        width: fit-content;
+        align-items: center;
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/*small*/
+@media screen and (max-width: 600px){
+    .gymcart{
+        width: fit-content;
+    }
+}
+#main3{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    color: white;
+    background-color: black;
+}
+#main3intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main3intro1{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+#main3intro2{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#gymshop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    height: 100%;
+}
+
+.gymshop{
+    background-color: #161a1d;
+    border-radius: 3px;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.gymshop1{
+    background-color: #0081a7;
+    border-radius: 3px;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.gymshoplabel{
+    text-align-last: center;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Poppins';
+}
+.gymshopoffer{
+    width: 90%;
+    font-size: 10px;
+}
+.gymshopoffer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+}
+.gymshopoffer li::before{
+    content:"\f058";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.gymshopbtn{
+    background: none;
+    font-size: 10px;
+    outline: none;
+    color: white;
+    border: 2px solid white;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    border-radius: 3px;
+    transition-duration: 300ms;
+}
+
+.gymshopbutton{
+    width: 70%;
+}
+.gymshopbutton1{
+    width: 70%;
+}
+.gymshopbtn1{
+    background: white;
+    font-size: 10px;
+    outline: none;
+    color: black;
+    border-radius: 3px;
+    border: 2px solid white;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    transition-duration: 300ms;
+}
+.gymshopbtn1:hover{
+    background: none;
+}
+.gymshopbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 900px){
+    #main3{
+        height: fit-content;
+    }
+    #gymshop{
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+
+    }
+    .gymshop1,.gymshop{
+        height: fit-content;
+        padding-bottom: 20px;
+        
+    }
+}
+/*small*/
+@media screen and (max-width: 600px){
+    #main3{
+        height: fit-content;
+    }
+    #gymshop{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .gymshop1{
+        width: fit-content;
+        height: fit-content;
+    }
+    .gymshop{
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+
+}
+#main4{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    color: white;
+    background-color: black;
+}
+
+#main4intro{
+    width: 80%;
+}
+
+#main4intro1{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+#main4intro2{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+#gympics{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.gympics{
+    width: 262px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+#main4label{
+    font-family: 'Open sans';
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 900px){
+    #main4{
+        overflow: hidden;
+    }
+    #gympics{
+        width: 100%;
+        place-items: center;
+    }
+    .gympics{
+        width: 200px;
+        height: 150px;
+    }
+}
+/*small*/
+@media screen and (max-width: 600px){
+    #gympics{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .gympics{
+        width: 250px;
+    }
+}
+#main5{
+    height:110vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    color: white;
+    background-color: black;
+}
+
+#main5intro{
+    width: 80%;
+}
+
+#main5intro1{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+#main5intro2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#trainers{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.train{
+    width: 180px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trainimg{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.traintxt{
+    width: 100%;
+}
+.trainname{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.traininfo{
+    font-size: 10px;
+    font-family: 'Open sans';
+}
+
+
+@media screen and (max-width: 900px){
+    #main5{
+        place-items: center;
+        height: fit-content;
+    }
+    .train{
+        width: fit-content;
+    }
+    #trainers{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/*small*/
+@media screen and (max-width: 600px){
+    #trainers{
+        grid-template-columns: 1fr;
+    }
+}
+#main6{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contactus{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #161a1d;
+    color: white;
+    padding-top: 30px;
+    border-radius: 3px;
+}
+#main6intro{
+    width: 80%;
+}
+#contacttext{
+    display: flex;
+    flex-direction: column;
+}
+#main6intro1{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: aqua;
+}
+#contacttext{
+    padding-left: 30px;
+}
+
+#main6intro2{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#textcontact{
+    font-size: 10px;
+    width: 80%;
+}
+#contactway{
+    width: 80%;
+}
+#contactway ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    font-size: 10px;
+    gap: 20px;
+}
+#question{
+    font-size: 10px;
+}
+#map{
+    background-image: url(https://i0.wp.com/www.cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1);
+    background-position: center;
+    background-size: cover;
+    border-radius:10px;
+    width: 300px;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 900px){
+    #contactus{
+        width: fit-content;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #map{
+        height: 250px;
+    }
+    #need{
+        width: fit-content;
+    }
+}
+/*small*/
+@media screen and (max-width: 600px){
+    #main6{
+        height: fit-content;
+    }
+    #contactus{
+        height: fit-content;
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+    #need{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    #map{
+        width: 200px;
+        height: 120px;
+    }
+}
