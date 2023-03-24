@@ -130,7 +130,9 @@ nav{
     color: aqua;
     
 }
-
+.closeNav, #openNav, .brandRight{
+    display: none;
+}
 @media screen and (max-width: 900px){
     .navitem{
         width: fit-content;
@@ -162,8 +164,34 @@ nav{
 }
 /*small*/
 @media screen and (max-width: 600px){
+    .closeNav{
+        position: relative;
+        bottom: 30px;
+        right: 70px;
+        display: block;
+        cursor: pointer;
+        transition: 300ms ease-in-out;
+    }
+    #openNav{
+        display: block;
+    }
+    .closeNav:hover{
+        color: #0081a7;  
+    }
+    .brandRight{
+        display: block;
+    }
     #navright{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background: black;
+        right: 0;
+        top: 0;
+        width: 200px;
+        height: 100vh;
+        transform: translateX(100%);
+        transition: 300ms ease-in-out;
     }
     #midtext{
         font-size: 30px;
